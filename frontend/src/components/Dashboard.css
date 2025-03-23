@@ -1,0 +1,102 @@
+.welcome-message {
+  font-size: 18px;
+  color: #555;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+/* Dashboard Main Container */
+.dashboard-container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 85%;
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Header */
+.dashboard-header {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* Sensor Container */
+.sensor-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.sensor-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Graph Container */
+.graph-container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.graph-container h3 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+/* Prediction Container */
+.prediction-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #e8f5e9;
+  border: 1px solid #4caf50;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-container h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+/* Hover Effects for Sections */
+.sensor-container:hover,
+.graph-container:hover,
+.prediction-container:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .graph-container {
+    width: 100%;
+  }
+
+  .sensor-container,
+  .prediction-container {
+    width: 100%;
+  }
+}
