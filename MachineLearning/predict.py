@@ -18,7 +18,7 @@ def fetch_data(collection, limit=10):
     data_cursor = collection.find().sort("_id", -1).limit(limit)
     data_list = list(data_cursor)
     if data_list and len(data_list) >= 10:
-        df = pd.DataFrame(data_list[::-1])  # Reverse to maintain time order
+        df = pd.DataFrame(data_list[::-1]) 
         return df
     else:
         return None
