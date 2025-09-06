@@ -24,6 +24,8 @@ Technologies Used:
 
 🚀 How to Set Up and Run the Project
 
+
+
 1️⃣ Set Up Backend
 
 Navigate to Backend Folder:
@@ -45,6 +47,7 @@ Start Backend Server:
 node server.js
 
 
+
 2️⃣ Upload Arduino Code
 
 Connect Arduino Board:
@@ -63,6 +66,8 @@ Close Arduino IDE:
 
 Once uploaded, close the IDE to free the serial port.
 
+
+
 3️⃣ Set Up Machine Learning Model
 
 Navigate to the Machine Learning Folder:
@@ -80,6 +85,8 @@ scikit-learn – To create and train the linear regression model.
 Run Python App:
 
 python App.py
+
+
 
 4️⃣ Set Up Frontend
 
@@ -104,9 +111,12 @@ GET /api/sensors/last10 – Get the last 10 sensor data entries.
 
 POST /api/sensors – Upload sensor data to the database.
 
+
 🔮 Predictions
 
 POST /api/predict – Get next-hour predictions for temperature and humidity.
+
+
 
 📊 Features
 
@@ -119,9 +129,11 @@ POST /api/predict – Get next-hour predictions for temperature and humidity.
 ✅ Responsive and user-friendly interface
 
 
+
 📝 Contributing
 
 Contributions are welcome! Feel free to fork the repository and create a pull request.
+
 
 🛠️ Troubleshooting
 MongoDB Connection Error:
